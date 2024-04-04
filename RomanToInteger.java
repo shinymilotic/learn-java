@@ -47,6 +47,61 @@ public class RomanToInteger {
 // s contains only the characters ('I', 'V', 'X', 'L', 'C', 'D', 'M').
 // It is guaranteed that s is a valid roman numeral in the range [1, 3999].
 
+    public int romanToInt(String s) {
+        int lastIndex = s.length();
+        int sum = 0;
+
+        for (int i = 0; i <= lastIndex - 2; i++) {
+            char c = s.charAt(i);
+            char charAfter = s.charAt(i + 1);
+
+            int num = getIndividualNumber(c);
+            int numAfter = getIndividualNumber(charAfter);
+
+            if (numAfter > num) {
+                sum = sum - num;
+            } else {
+                sum = sum + num;
+            }
+        }
+
+        sum += getIndividualNumber(s.charAt(lastIndex - 1));
+
+        return sum;
+    }
+
+    public int getIndividualNumber(char c) {
+        int result = 0;
+
+        switch (c) {
+            case 'I': 
+                result = 1;
+                break;
+            case 'V': 
+                result = 5;
+                break;
+            case 'X': 
+                result = 10;
+                break;
+            case 'L': 
+                result = 50;
+                break;
+            case 'C': 
+                result = 100;
+                break;
+            case 'D': 
+                result = 500;
+                break;
+            case 'M': 
+                result = 1000;
+                break;
+            default:
+                break;
+        }
+
+        return result;
+    }
+
     public static void main(String[] args) {
         
     }

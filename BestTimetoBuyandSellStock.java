@@ -14,38 +14,26 @@ public class BestTimetoBuyandSellStock {
     // Input: nums = [2,2,1,1,1,2,2]
     // Output: 2
     public int maxProfit(int[] prices) {
-        int length = prices.length;
         int maxDiff = 0;
-        if (length <= 1) {
+        int lowest = prices[0];
+
+        if (prices.length <= 1) {
             return 0;
         }
 
-        int i = 0, j = 1;
-        
-        while (i < j && j < length) {
-            int diff = calculateProfit(i, j, prices);
-
-            if (diff > maxDiff) {
-                maxDiff = diff;
+        for (int i = 1; i <= prices.length - 1; i++) {
+            if (prices[i - 1] <= lowest) {
+                lowest = prices[i - 1];
             }
+            
+            int diff = prices[i] - lowest;
 
-            if (j < length - 1) {
-                j++;
-            } else {
-                i++;
+            if (diff >= maxDiff) {
+                maxDiff = diff;
             }
         }
 
         return maxDiff;
-    }
-
-    public int calculateProfit(int i, int j, int[] prices) {
-
-        if (prices[i] > prices[j]) {
-            return 0;
-        } else {
-            return prices[j] - prices[i];
-        }
     }
 
     public static void main(String[] args) {
