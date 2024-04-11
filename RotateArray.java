@@ -2,7 +2,7 @@ public class RotateArray {
     public void rotate(int[] nums, int k) {
         int[] shadow = new int[nums.length];
 
-        for (int i = 0; i < nums.length; i--) {
+        for (int i = 0; i < nums.length; i++) {
             int j = getShadowIndex(i, k, nums.length);
             shadow[j] = nums[i];
         }
@@ -15,13 +15,16 @@ public class RotateArray {
     public int getShadowIndex(int i, int k, int n) {
         int j = 0;
         while (k > n) {
-            k = n - k;
+            k = k - n;
         }
 
         if (i < k) {
             j = n - (k - i);
+            System.out.println("j = n - 1 - (k - i) " + j);
+
         } else {
             j = i - k;
+            System.out.println("i - k " + j);
         }
 
         return j;
@@ -29,6 +32,6 @@ public class RotateArray {
 
     public static void main(String[] args) {
         RotateArray algo = new RotateArray();
-        algo.rotate(new int[]{1,2,3,4,5,6,7}, 1);
+        algo.rotate(new int[]{1,2}, 3);
     }
 }
