@@ -1,0 +1,182 @@
+{
+    // Use IntelliSense to learn about possible attributes.
+    // Hover to view descriptions of existing attributes.
+    // For more information, visit: https://go.microsoft.com/fwlink/?linkid=830387
+    "version": "0.2.0",
+    "configurations": [
+        {
+            "type": "java",
+            "name": "LongestSubstringWithoutRepeatingCharacters",
+            "request": "launch",
+            "mainClass": "LongestSubstringWithoutRepeatingCharacters",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "MinimumSizeSubarraySum",
+            "request": "launch",
+            "mainClass": "MinimumSizeSubarraySum",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "ZigzagConversion",
+            "request": "launch",
+            "mainClass": "ZigzagConversion",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "GasStation",
+            "request": "launch",
+            "mainClass": "GasStation",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "ReverseWordsString",
+            "request": "launch",
+            "mainClass": "ReverseWordsString",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "IntegerToRoman",
+            "request": "launch",
+            "mainClass": "IntegerToRoman",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "Hindex",
+            "request": "launch",
+            "mainClass": "Hindex",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "JumpGameII",
+            "request": "launch",
+            "mainClass": "JumpGameII",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "BestTimeBuySellStockII",
+            "request": "launch",
+            "mainClass": "BestTimeBuySellStockII",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "RotateArray",
+            "request": "launch",
+            "mainClass": "RotateArray",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "RemoveDuplicatesSortedArrayII",
+            "request": "launch",
+            "mainClass": "RemoveDuplicatesSortedArrayII",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "SummaryRanges",
+            "request": "launch",
+            "mainClass": "SummaryRanges",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "HappyNumber",
+            "request": "launch",
+            "mainClass": "HappyNumber",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "WordPattern",
+            "request": "launch",
+            "mainClass": "WordPattern",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "RansomeNote",
+            "request": "launch",
+            "mainClass": "RansomeNote",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "Current File",
+            "request": "launch",
+            "mainClass": "${file}"
+        },
+        {
+            "type": "java",
+            "name": "BestTimetoBuyandSellStock",
+            "request": "launch",
+            "mainClass": "BestTimetoBuyandSellStock",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "FindIndexFirstOccurrence",
+            "request": "launch",
+            "mainClass": "FindIndexFirstOccurrence",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "IsSubsequence",
+            "request": "launch",
+            "mainClass": "IsSubsequence",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "LengthofLastWord",
+            "request": "launch",
+            "mainClass": "LengthofLastWord",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "LongestCommonPrefix",
+            "request": "launch",
+            "mainClass": "LongestCommonPrefix",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "MajorityElement",
+            "request": "launch",
+            "mainClass": "MajorityElement",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "RasomeNote",
+            "request": "launch",
+            "mainClass": "RasomeNote",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "RomanToInteger",
+            "request": "launch",
+            "mainClass": "RomanToInteger",
+            "projectName": "learn-java_a1acbeda"
+        },
+        {
+            "type": "java",
+            "name": "ValidPalindrome",
+            "request": "launch",
+            "mainClass": "ValidPalindrome",
+            "projectName": "learn-java_a1acbeda"
+        }
+    ]
+}
