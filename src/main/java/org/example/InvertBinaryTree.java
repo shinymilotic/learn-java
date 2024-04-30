@@ -5,9 +5,21 @@ import org.example.data_structure.TreeNode;
 public class InvertBinaryTree {
     public TreeNode invertTree(TreeNode root) {
         
-        
-        return null;
+        if (root == null ||
+            root.getLeft() == null && root.getRight() == null) {
+            return root;
+        }
+        TreeNode left = root.getLeft();
+        TreeNode right = root.getRight();
+
+        root.setLeft(right);
+        root.setRight(left);
+
+        invertTree(root.getLeft());
+        invertTree(root.getRight());
+        return root;
     }
+
 
     public static void main(String[] args) {
         TreeNode node = new TreeNode(3);
