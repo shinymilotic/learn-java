@@ -1,7 +1,10 @@
+package org.example;
+
+import org.example.data_structure.TreeNode;
+
 import java.util.LinkedList;
 import java.util.Queue;
 
-import data_structure.TreeNode;
 
 public class MaximumDepthBinaryTree {
     public int maxDepth(TreeNode root) {

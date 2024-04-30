@@ -1,3 +1,5 @@
+package org.example;
+
 public class BestTimeBuySellStockII {
 
     public int maxProfit(int[] prices) {

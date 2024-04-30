@@ -1,4 +1,4 @@
-package data_structure;
+package org.example.data_structure;
 
 
 // Definition for a binary tree node.

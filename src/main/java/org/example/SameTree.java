@@ -1,4 +1,6 @@
-import data_structure.TreeNode;
+package org.example;
+
+import org.example.data_structure.TreeNode;
 
 public class SameTree {
 
